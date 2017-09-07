@@ -1630,13 +1630,14 @@
   }
   .consortium #content .items-nav, .consortium #content .secondary-nav,
   .consortium #content #secondary-nav,
-  .consortium #content #outputs,
   .consortium #content #exhibit-child-pages,
+  .consortium #content #outputs,
   .consortium #content #login-links a {
     color: #262626;
     max-width: 1080px;
-    margin: 0 auto;
+    margin: 0 0 0 0;
   }
+    
   .consortium #content .items-nav a:link, .consortium #content .items-nav a:visited, .consortium #content .secondary-nav a:link, .consortium #content .secondary-nav a:visited,
   .consortium #content #secondary-nav a:link,
   .consortium #content #secondary-nav a:visited,
