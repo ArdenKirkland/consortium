@@ -1507,10 +1507,11 @@
 /* #FFF7EC - background-color: body, footer, search, bottom gradient */
 /* #D9E3EB - background top gradient, search box background */
 /* #262626 - A, P, TD, H1, HR, LI, Site-title, body, Footer, some pagination */
-/* #387180 - buttons, nav-top, hyperlinks, borders, content H1, pagination, search results th */
-/* #BFBBB5 - hover/active/focus hyperlinks, body and nav-top */
+/* #387180 - buttons, nav-top, borders, content H1, pagination, search results th */
+/* #387180 - hyperlinks */
+/* #545250 - hover/active/focus hyperlinks, body and nav-top */
 /* #FFF    - nav.top text, intro text, div, pagination, filters background */
-/* #2796A9 - sub.nav background */
+/* #2796A9 - sub.nav background, body text links */
 /* #DFE2E2 - item-img border, page content border */
 
 /* these from original HVVACC home not used */
@@ -1536,14 +1537,14 @@
   .consortium input[type=text], .consortium input[type=password], .consortium textarea {
     background-color: #D9E3EB;
   }
-  .consortium a:link {
-    color: #387180;
+  .consortium a:link, .consortium a:visited {
+    color: #2796A9;
   }
-  .consortium a:visited {
+   .consortium h1 a:link, .consortium h1 a:visited {
     color: #387180;
   }
   .consortium a:hover, .consortium a:active, .consortium a:focus {
-    color: #bfbbb5;
+    color: #545250;
   }
   .consortium header {
     background-color: #ffffff;
@@ -1554,13 +1555,13 @@
     background-color: #387180;
   }
   .consortium nav.top li:hover a {
-    color: #bfbbb5;
+    color: #545250;
   }
   .consortium nav.top a:link, .consortium nav.top a:visited {
     color: #fff;
   }
   .consortium nav.top a:active, .consortium nav.top a:hover, .consortium nav.top a:focus, .consortium nav.top a.open {
-    color: #bfbbb5;
+    color: #545250;
   }
   .consortium nav.top .sub-nav {
     background-color: #2796a9;
@@ -1619,7 +1620,7 @@
     color: #262626;
   }
   .consortium #content .pagination a:hover, .consortium #content .pagination a:active {
-    color: #387180;
+    color: #2796A9;
   }
   .consortium #content .pagination input[type=text] {
     border-color: #387180;
@@ -1658,7 +1659,7 @@
   .consortium #content #exhibit-child-pages a:active,
   .consortium #content #login-links a a:hover,
   .consortium #content #login-links a a:active {
-    color: #bfbbb5;
+    color: #545250;
   }
   .consortium #content .item-img {
     border-color: #dfe2e2;
@@ -1693,7 +1694,7 @@
     color: #387180;
   }
   .consortium .exhibit-page-nav a:hover, .consortium .exhibit-page-nav a:active, .consortium .exhibit-child-nav a:hover, .consortium .exhibit-child-nav a:active {
-    color: #BFBBB5;
+    color: #545250;
   }
   .consortium #exhibit-page-navigation a, .consortium #exhibit-page-navigation span {
     background-color: #fff;
