@@ -1319,12 +1319,46 @@
         clear:both;
     }
     
+    .exhibit-pages, exhibit-child-pages {
+        max-width= 1080px;
+    }
+   
+    #secondary-nav li > ul > li {
+        float: none;
+    }
+    
+    .exhibit-nav-level-1,  .exhibit-nav-level-2,  .exhibit-child-nav {
+        display: inline-block;
+        width: 100%;
+        height: 50px;
+        white-space: nowrap;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;  
+    }
+    
     .exhibit-nav-level-1 > li {
         background-color: #fff;
         padding-left: 10px;
         padding-right: 10px;
         margin-bottom: 10px;
+        display:inline-block;
     }
+    
+     .exhibit-nav-level-2 > li {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+        display:inline-block;
+    }
+    
+     .exhibit-child-nav > li {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+        display:inline-block;
+    }
+    
   .exhibits.show #content .exhibit-page-nav .current, .exhibits.show #content .exhibit-child-nav .current {
     font-weight: bold;
   }
