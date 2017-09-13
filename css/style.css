@@ -1268,7 +1268,7 @@
     max-width: 40%;
   }
   .exhibits.show #content h1 {
-    font-size: 32px;
+    font-size: 20px;
   }
   .exhibits.show #content #primary:first-child {
     margin-top: 1.5em;
@@ -2430,6 +2430,10 @@
     display: block;
     padding: 0 16px 1.5em;
   }
+    
+    .exhibits.show #content h1 {
+        font-size: 32px;
+    }
     
   .exhibits #exhibit-pages:not(.full) {
     width: 32.20339%;
