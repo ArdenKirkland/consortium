@@ -1458,7 +1458,7 @@
   }
 
   .layout-text {
-    margin: 20px 30px 20px 30px;
+    margin: 10px 10px 10px 10px;
   }
     
   .exhibit-block > *:last-child {
@@ -2461,5 +2461,8 @@
   }
   .exhibits.show #content #exhibit-page-navigation a, .exhibits.show #content #exhibit-page-navigation span {
     width: 100%;
+  }
+     .layout-text {
+    margin: 20px 30px 20px 30px;
   }
 }
