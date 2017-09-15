@@ -1233,6 +1233,16 @@
   .exhibits .exhibit {
     clear: both;
   }
+    
+    .exhibit .description {
+        margin-right: 50px;
+    }
+    
+    .exhibit .image {
+        float: none;
+        width: 100%
+    }
+    
   .exhibits .exhibit-page {
     font-weight: bold;
       background-color: #dadada;
@@ -2477,4 +2487,15 @@
      .layout-text {
     margin: 20px 30px 20px 30px;
   }
+}
+
+@media screen and (min-width: 480px) {   
+    .exhibit .description {
+        margin-right: 5px;
+    }
+    
+    .exhibit .image {
+        float: left;
+        width: auto;
+    }
 }
