@@ -1563,10 +1563,10 @@
     color: #2796A9;
     font-weight: bold;
   }
-  .consortium h1 a:link, .consortium #exhibit-page-navigation a:link {
+  .consortium h1 a:link, .consortium h2 a:link, .consortium #exhibit-page-navigation a:link {
     color: #387180;
   }
-  .consortium h1 a:visited, .consortium #exhibit-page-navigation a:visited {
+  .consortium h1 a:visited, .consortium h2 a:visited, .consortium #exhibit-page-navigation a:visited {
     color: #387180;
   }
   .consortium a:hover, .consortium a:active, .consortium a:focus {
