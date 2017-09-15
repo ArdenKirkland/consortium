@@ -1526,10 +1526,10 @@
 /* #FFF7EC - background-color: body, footer, search, bottom gradient */
 /* #D9E3EB - background top gradient, search box background */
 /* #262626 - A, P, TD, H1, HR, LI, Site-title, body, Footer, some pagination */
-/* #387180 - buttons, nav-top, hyperlinks, borders, content H1, pagination, search results th */
+/* #387180 - buttons, nav-top, some hyperlinks, borders, content H1, pagination, search results th */
 /* #BFBBB5 - hover/active/focus hyperlinks, body and nav-top */
 /* #FFF    - nav.top text, intro text, div, pagination, filters background */
-/* #2796A9 - sub.nav background */
+/* #2796A9 - sub.nav background, body hyperlinks */
 /* #DFE2E2 - item-img border, page content border */
 
 /* these from original HVVACC home not used */
@@ -1556,9 +1556,17 @@
     background-color: #D9E3EB;
   }
   .consortium a:link {
-    color: #387180;
+    color: #2796A9;
+    font-weight: bold;
   }
   .consortium a:visited {
+    color: #2796A9;
+    font-weight: bold;
+  }
+  .consortium h1 a:link, .consortium #exhibit-page-navigation a:link {
+    color: #387180;
+  }
+  .consortium h1 a:visited, .consortium #exhibit-page-navigation a:visited {
     color: #387180;
   }
   .consortium a:hover, .consortium a:active, .consortium a:focus {
