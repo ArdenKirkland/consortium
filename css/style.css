@@ -1235,7 +1235,7 @@
   }
     
     .exhibit .description {
-        margin-right: 50px;
+        margin-right: 5px;
     }
     
     .exhibit .image {
@@ -2491,7 +2491,7 @@
 
 @media screen and (min-width: 480px) {   
     .exhibit .description {
-        margin-right: 5px;
+        margin-right: 50px;
     }
     
     .exhibit .image {
