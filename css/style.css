@@ -89,7 +89,7 @@
   }
 
   p, ol, ul {
-    margin-bottom: 1.5em;
+    margin-bottom: 0em;
   }
   p:only-child, p:last-child, ol:only-child, ol:last-child, ul:only-child, ul:last-child {
     margin-bottom: 0;
@@ -1465,6 +1465,7 @@
 
   .exhibit-block {
     overflow: hidden;
+      margin-bottom: 0;
   }
 
   .layout-text {
@@ -1472,7 +1473,7 @@
   }
     
   .exhibit-block > *:last-child {
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
 
   .exhibit-item .exhibit-item-link img {
@@ -2485,7 +2486,7 @@
     width: 100%;
   }
      .layout-text {
-    margin: 20px 30px 20px 30px;
+    margin: 0px 30px 20px 0px;
   }
 }
 
