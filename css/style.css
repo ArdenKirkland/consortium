@@ -1460,7 +1460,7 @@
   }
 
   #content .layout-text p:only-child {
-    margin-top: 1.5em;
+    margin-top: 0em;
   }
 
   .exhibit-block {
